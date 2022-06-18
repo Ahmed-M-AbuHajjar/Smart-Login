@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="Signup">
+    <div class="container">
+        <div class="content-box text-center mt-5 w-75 p-5 m-auto">
+            <h1 class="pb-3">Smart Login System</h1>
+            <div class="login-inputs">
+                <div class="mb-3">
+                    <input type="text" class="form-control bg-transparent text-white" id="name-input" placeholder="Enter your name">
+                  </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control bg-transparent text-white" id="email-input" placeholder="Enter your email">
+                  </div>
+                  <div>
+                    <input type="password" class="form-control bg-transparent text-white" id="password-input" placeholder="Enter your password">
+                  </div>
+                  <div class="text-center text-success pt-3 d-none" id="success">Success</div>
+                  <div class="text-center text-danger pt-3 d-none" id="fail">email already exists</div>
+                  <button class="btn btn-primary w-100 bg-transparent mt-4 mb-3" type="button" id="signUpBTN">Sign Up</button>
+                  <p class="text-white">You have an account? <a href="index.html" class="text-decoration-none text-white">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

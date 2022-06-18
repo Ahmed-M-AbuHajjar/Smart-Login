@@ -1,0 +1,41 @@
+body{
+    background-color: #24353F !important;
+}
+.content-box{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.content-box h1{
+    color: #17a2b8;
+}
+.login-inputs ::placeholder{
+    color: #a9a9a9;
+}
+.login-inputs input:focus{
+    border-color: #17a2b8;
+    box-shadow: none;
+}
+.login-inputs button{
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+.login-inputs button:hover{
+    background-color: #17a2b8 !important;
+    color: white;
+}
+.login-inputs a:hover{
+    text-decoration: underline !important;
+}
+
+
+
+/* Home Page */
+.navbar{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.log-out{
+    border-color: orange;
+    color: rgba(255,255,255,.5);
+}
+.log-out button:hover{
+    background-color: orange !important;
+}
